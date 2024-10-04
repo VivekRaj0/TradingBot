@@ -31,3 +31,16 @@ trading/
    ```bash
    npm start
    ```
+You can now access 
+
+```bash
+http://localhost:3000/run-bot
+```
+
+to simulate the bot executing trades and 
+
+```bash
+http://localhost:3000/summary
+``` 
+
+to see the trade summary.
