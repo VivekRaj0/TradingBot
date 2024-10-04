@@ -1,5 +1,4 @@
-
-const stockPrices = [
+ const stockPrices = [
     { time: '10:00', price: 100 },
     { time: '10:01', price: 98 },
     { time: '10:02', price: 96 },

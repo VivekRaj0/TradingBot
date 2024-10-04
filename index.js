@@ -1,6 +1,6 @@
 import express from 'express';
-import stockPrices from './data';
-import { executeTrade, getTradeSummary } from './tradingLogic';
+import stockPrices from './data.js';
+import { executeTrade, getTradeSummary } from './tradeLogic.js';
 
 const app = express();
 const PORT = 3000;

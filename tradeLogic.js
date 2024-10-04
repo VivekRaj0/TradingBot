@@ -4,7 +4,7 @@ let tradeHistory = [];
 const BUY_THRESHOLD = 0.98;
 const SELL_THRESHOLD = 1.03;
 
-function executeTrade(prices) {
+export function executeTrade(prices) {
     prices.forEach((stock, index) => {
         const previousPrice = index > 0 ? prices[index - 1].price : stock.price;
         const priceChange = stock.price / previousPrice;
@@ -24,7 +24,7 @@ function executeTrade(prices) {
     });
 }
 
-function getTradeSummary() {
+export function getTradeSummary() {
     return {
         balance,
         tradeHistory,
@@ -32,4 +32,4 @@ function getTradeSummary() {
     };
 }
 
-export { executeTrade, getTradeSummary };
+// export { executeTrade, getTradeSummary };
