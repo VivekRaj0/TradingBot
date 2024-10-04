@@ -1,6 +1,6 @@
 # File Structure
-
-```trading/
+```bash
+trading/
 │
 ├── node_modules       # Node dependencies
 ├── index.js           # Main entry point
@@ -8,7 +8,8 @@
 ├── data.js            # Mock API data
 ├── utils.js           # Utility functions (e.g., moving average)
 ├── .gitignore         # contains file that is not needed to be pushed to GitHub    
-└── package.json       # NPM dependencies```
+└── package.json       # NPM dependencies
+```
 
 # Documentation
 
