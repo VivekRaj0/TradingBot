@@ -32,4 +32,4 @@ function getTradeSummary() {
     };
 }
 
-module.exports = { executeTrade, getTradeSummary };
+export { executeTrade, getTradeSummary };
