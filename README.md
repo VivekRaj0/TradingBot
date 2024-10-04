@@ -22,8 +22,12 @@ trading/
 ## How to Run 
    Install dependencies with 
 
-   ```npm install``` 
+   ```bash 
+   npm install
+   ``` 
 
    and start the application with 
 
-   ```npm start```
+   ```bash
+   npm start
+   ```
